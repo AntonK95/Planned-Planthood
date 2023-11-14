@@ -1,6 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@300;400&family=Roboto:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 body {
-    background-color: wheat;
+    background-color: #FCF6FC;
+}
+
+h2.plannedPlantsHeader {
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin: 5rem;
+}
+
+section.plannedPlants {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 410px;
+    margin: 2rem auto;
+    grid-gap: 2rem;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+}
+
+img.plantsvg {
+    margin: 45px 0px 45px 66px;
+}
+
+figure.cucumber {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/Rectangle\ 13\ \(5\).png);
+    background-size: 100%;
+}
+
+figure.tomatojocke {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/Rectangle\ 13\ \(6\).png);
+    background-size: 100%;
+}
+
+figure.tomatmajvor {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/Rectangle\ 13\ \(7\).png);
+    background-size: 100%;
+}
+
+figure.sugarcane {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/Rectangle\ 13\ \(2\).png);
+    background-size: 100%;
+}
+
+figure.majrova {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/Rectangle\ 13\ \(4\).png);
+    background-size: 100%;
+}
+
+figure.squash {
+    height: 300px;
+    width: 300px;
+    background-image: url(/assets/Rectangle\ 13\ \(3\).png);
+    background-size: 100%;
+}
+
+h2.cardTitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+p.date {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+p.name {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+section.cardInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    margin: 10px;
+}
+
+button.smallCardBtn {
+    background-color: #B93857;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button.smallCardBtn:hover {
+    background-color: #860c29;
+}
+
+article.smallCard {
+    box-shadow: 3px 3px #504e4e30;
+}
+
+section.buttonGreen {
+    display: flex;
+    justify-content: center;
+}
+
+button.greenBtn {
+    background-color: #0A846E;
+    color: white;
+    padding: 1rem;
+    font-size: large;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 3px #504e4e30;
+    margin: 5rem;
 }
