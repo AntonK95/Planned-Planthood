@@ -1,14 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@300;400&family=Roboto:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #FCF6FC;
+    background-color: #fcf6fc;
 }
+
+div.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+/* styling header */
+
+.headerPictures {
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "leaf plant"
+        "leaf spade";
+}
+
+.headerLeaf {
+    grid-area: leaf;
+    background-image: url(assets/Rectangle\ 25.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerPlant {
+    grid-area: plant;
+    background-color: #9e6d52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerSpade {
+    grid-area: spade;
+    background-color: #0a846e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>section>article>img {
+    height: 10rem;
+    width: 10rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    color: #0a846e;
+    background-color: #ffffff;
+    font-family: "maven pro", "sans serif";
+    font-weight: 700;
+    box-shadow: 0px 3px 2px hsla(0, 0%, 50%, 0.131);
+}
+
+/* Styling main */
 
 h2.plannedPlantsHeader {
     text-align: center;
@@ -37,42 +101,42 @@ img.plantsvg {
 figure.cucumber {
     height: 300px;
     width: 300px;
-    background-image: url(/assets/Rectangle\ 13\ \(5\).png);
+    background-image: url(./assets/Rectangle\ 13\ \(5\).png);
     background-size: 100%;
 }
 
 figure.tomatojocke {
     height: 300px;
     width: 300px;
-    background-image: url(/assets/Rectangle\ 13\ \(6\).png);
+    background-image: url(./assets/Rectangle\ 13\ \(6\).png);
     background-size: 100%;
 }
 
 figure.tomatmajvor {
     height: 300px;
     width: 300px;
-    background-image: url(/assets/Rectangle\ 13\ \(7\).png);
+    background-image: url(./assets/Rectangle\ 13\ \(7\).png);
     background-size: 100%;
 }
 
 figure.sugarcane {
     height: 300px;
     width: 300px;
-    background-image: url(/assets/Rectangle\ 13\ \(2\).png);
+    background-image: url(./assets/Rectangle\ 13\ \(2\).png);
     background-size: 100%;
 }
 
 figure.majrova {
     height: 300px;
     width: 300px;
-    background-image: url(/assets/Rectangle\ 13\ \(4\).png);
+    background-image: url(./assets/Rectangle\ 13\ \(4\).png);
     background-size: 100%;
 }
 
 figure.squash {
     height: 300px;
     width: 300px;
-    background-image: url(/assets/Rectangle\ 13\ \(3\).png);
+    background-image: url(./assets/Rectangle\ 13\ \(3\).png);
     background-size: 100%;
 }
 
@@ -126,7 +190,7 @@ button.smallCardBtn:hover {
 }
 
 article.smallCard {
-    box-shadow: 10px 8px 10px 5px grey;
+    box-shadow: 3px 3px 5px 0px rgba(128, 128, 128, 0.363);
 }
 
 section.buttonGreen {
@@ -143,4 +207,69 @@ button.greenBtn {
     border-radius: 8px;
     box-shadow: 0px 3px #504e4e30;
     margin: 5rem;
+}
+
+/* styling footer */
+
+.footerFlex {
+    background-image: url(assets/Rectangle\ 22.png);
+    height: 590px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footerLeft {
+    width: 50%;
+    background-color: rgba(0, 0, 0, .79);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footerLeft h2 {
+    font-size: 64px;
+}
+
+.footerRight {
+    background-color: rgba(5, 87, 72, .2);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    align-items: center;
+}
+
+.contactInfo article {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bottenNav {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.bottenNav a {
+    text-decoration: none;
+    color: black;
 }
