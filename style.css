@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@300;400&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
 
 * {
     box-sizing: border-box;
@@ -218,6 +219,8 @@ button.greenBtn {
 
 .open {
     margin-bottom:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
 }
 
 .tidigareOdlingarLeft {
@@ -225,6 +228,8 @@ button.greenBtn {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -242,6 +247,8 @@ button.greenBtn {
     border-radius: 8px;
     box-shadow: 0px 3px #504e4e30;
     margin-top:1rem;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .circle {
@@ -277,6 +284,7 @@ button.greenBtn {
 
 .footerLeft h2 {
     font-size: 64px;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .footerRight {
@@ -295,8 +303,9 @@ button.greenBtn {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .contactInfo article {
@@ -311,6 +320,7 @@ button.greenBtn {
     background-color: #ffffff;
     font-size: 24px;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bottenNav a {
