@@ -208,7 +208,51 @@ button.greenBtn {
     box-shadow: 0px 3px #504e4e30;
     margin: 5rem;
 }
+.tidigareOdlingar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40px;
+}
 
+.open {
+    margin-bottom:20px;
+}
+
+.tidigareOdlingarLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.tidigareOdlingar section {
+    width: 50%;
+    padding:2rem;
+}
+
+.greenBtnPlant {
+    background-color: #0A846E;
+    color: white;
+    padding: 1rem;
+    font-size: large;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px #504e4e30;
+    margin-top:1rem;
+}
+
+.circle {
+    width:377px;
+    height:377px;
+    background-color: #0A846E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* styling footer */
 
 .footerFlex {
