@@ -17,7 +17,12 @@ div.wrapper {
     margin: auto;
     background-color: white;
 }
-
+/*flex center*/
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* styling header */
 
 .headerPictures {
@@ -36,25 +41,16 @@ div.wrapper {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .headerPlant {
     grid-area: plant;
     background-color: #9e6d52;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .headerSpade {
     grid-area: spade;
     background-color: #0a846e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header>section>article>img {
@@ -79,9 +75,7 @@ nav {
     background-color: white;
     display: flex;
     padding: 1rem;
-
 }
-
 
 .centered-textP {
     margin: 0;
@@ -97,10 +91,6 @@ nav {
     width: 911px;
     height: 377px;
     background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .centered-textS {
@@ -263,11 +253,6 @@ article.smallCard {
     box-shadow: 3px 3px 5px 0px rgba(128, 128, 128, 0.363);
 }
 
-section.buttonGreen {
-    display: flex;
-    justify-content: center;
-}
-
 button.greenBtn,
 .greenBtnPlant {
     background-color: #0A846E;
@@ -280,15 +265,7 @@ button.greenBtn,
     margin: 5rem;
 }
 
-.tips-button:hover {
-    background-color: #10ac90;
-}
-
-button.greenBtn:hover {
-    background-color: #10ac90;
-}
-
-.greenBtnPlant:hover {
+.tips-button:hover, .greenBtnPlant:hover, button.greenBtn:hover {
     background-color: #10ac90;
 }
 
@@ -301,9 +278,6 @@ button.greenBtnPlant {
 }
 
 .tidigareOdlingar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -333,9 +307,6 @@ button.greenBtnPlant {
     height: 377px;
     background-color: #0A846E;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* styling footer */
@@ -353,10 +324,6 @@ button.greenBtnPlant {
 .footerLeft {
     width: 50%;
     background-color: rgba(0, 0, 0, .79);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
 
@@ -390,10 +357,6 @@ button.greenBtnPlant {
 .footerRight {
     background-color: rgba(5, 87, 72, .2);
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .bottenNav {
