@@ -28,7 +28,7 @@ div.wrapper {
 /* styling header */
 
 .headerPictures {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
