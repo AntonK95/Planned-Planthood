@@ -186,54 +186,39 @@ section.plannedPlants {
     grid-template-rows: 410px;
     margin: 2rem auto;
     grid-gap: 2rem;
-    max-width: 1000px;
-    background-color: #FFFFFF;
 }
 
-img.plantsvg {
-    margin: 45px 0px 45px 66px;
+.imgBox {
+    height: 300px;
+    width: 300px; 
+    background-size: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 figure.cucumber {
-    height: 300px;
-    width: 300px;
     background-image: url(./assets/Rectangle\ 13\ \(5\).png);
-    background-size: 100%;
 }
 
 figure.tomatojocke {
-    height: 300px;
-    width: 300px;
     background-image: url(./assets/Rectangle\ 13\ \(6\).png);
-    background-size: 100%;
 }
 
 figure.tomatmajvor {
-    height: 300px;
-    width: 300px;
     background-image: url(./assets/Rectangle\ 13\ \(7\).png);
-    background-size: 100%;
 }
 
 figure.sugarcane {
-    height: 300px;
-    width: 300px;
     background-image: url(./assets/Rectangle\ 13\ \(2\).png);
-    background-size: 100%;
 }
 
 figure.majrova {
-    height: 300px;
-    width: 300px;
     background-image: url(./assets/Rectangle\ 13\ \(4\).png);
-    background-size: 100%;
 }
 
 figure.squash {
-    height: 300px;
-    width: 300px;
     background-image: url(./assets/Rectangle\ 13\ \(3\).png);
-    background-size: 100%;
 }
 
 h2.cardTitle {
@@ -313,6 +298,8 @@ button.greenBtn:hover {
 .greenBtnPlant:hover {
     background-color: #10ac90;
 }
+
+/* Tidigare odlingar */
 
 button.greenBtnPlant {
     margin: 1rem 0;
