@@ -103,17 +103,6 @@ nav {
     justify-content: center;
 }
 
-
-.circle {
-    width: 370px;
-    height: 370px;
-    background-color: #25603e;  
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .centered-textS {
     display: flex;
     flex-direction: column;
@@ -310,7 +299,6 @@ button.greenBtnPlant {
 .tidigareOdlingar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     margin-bottom: 40px;
 }
@@ -322,30 +310,18 @@ button.greenBtnPlant {
 }
 
 .tidigareOdlingarLeft {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    padding: 2rem;
 }
 
 .tidigareOdlingarRight {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
-
-
-.tidigareOdlingar section {
     width: 50%;
     padding: 2rem;
-}
-
-.greenBtnPlant {
-    margin: 1rem 0 !important;
-    font-family: 'Inter', sans-serif;
-    width: 281px;
 }
 
 .circle {
@@ -385,19 +361,10 @@ button.greenBtnPlant {
     font-family: 'Maven Pro', sans-serif;
 }
 
-.footerRight {
-    background-color: rgba(5, 87, 72, .2);
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .contactInfo {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -410,6 +377,19 @@ button.greenBtnPlant {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.center {
+    align-items: center;
+}
+
+.footerRight {
+    background-color: rgba(5, 87, 72, .2);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottenNav {
