@@ -86,23 +86,33 @@ nav {
 .centered-textP {
     margin: 0;
     padding: 30px;
-    text-align: center;  
+    text-align: center;
     color: #0A846E;
     font-family: 'Maven Pro', sans-serif;
     font-size: 34px;
 }
-    
+
 .container1 {
     margin: 0;
     width: 911px;
     height: 377px;
     background-color: white;
     display: flex;
-    flex-direction:row;
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
 
+
+.circle {
+    width: 370px;
+    height: 370px;
+    background-color: #25603e;  
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .centered-textS {
     display: flex;
@@ -111,7 +121,7 @@ nav {
     align-items: start;
 }
 
-.season { 
+.season {
     padding: 10px 40px;
     display: flex;
     justify-content: flex-start;
@@ -148,10 +158,10 @@ nav {
     margin-left: auto;
 }
 
- 
+
 
 .custom-line {
-    margin:5rem auto;
+    margin: 5rem auto;
     width: 303px;
     border-top: 3px solid #055647;
 
@@ -284,7 +294,8 @@ section.buttonGreen {
     justify-content: center;
 }
 
-button.greenBtn, .greenBtnPlant {
+button.greenBtn,
+.greenBtnPlant {
     background-color: #0A846E;
     color: white;
     padding: 1rem;
@@ -295,9 +306,10 @@ button.greenBtn, .greenBtnPlant {
     margin: 5rem;
 }
 
-button.greenBtn:hover  {
+button.greenBtn:hover {
     background-color: #10ac90;
 }
+
 .greenBtnPlant:hover {
     background-color: #10ac90;
 }
@@ -313,11 +325,11 @@ button.greenBtnPlant {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .open {
-    margin-bottom:20px;
+    margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
 }
@@ -340,18 +352,25 @@ button.greenBtnPlant {
 
 .tidigareOdlingar section {
     width: 50%;
-    padding:2rem;
+    padding: 2rem;
+}
+
+.greenBtnPlant {
+    margin: 1rem 0 !important;
+    font-family: 'Inter', sans-serif;
+    width: 281px;
 }
 
 .circle {
-    width:377px;
-    height:377px;
+    width: 377px;
+    height: 377px;
     background-color: #0A846E;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* styling footer */
 
 .footerFlex {
