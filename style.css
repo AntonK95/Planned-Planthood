@@ -73,6 +73,100 @@ nav {
     box-shadow: 0px 3px 2px hsla(0, 0%, 50%, 0.131);
 }
 
+
+/* Styling Planned planthood */
+.section {
+    background-color: white;
+    display: flex;
+    padding: 1rem;
+
+}
+
+
+.centered-textP {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    color: #0A846E;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 34px;
+}
+
+.container1 {
+    margin: 0;
+    width: 911px;
+    height: 377px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle {
+    width: 370px;
+    height: 370px;
+    background-color: #25603e;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-textS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.season {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    color: black;
+    font-size: 32px;
+}
+
+.Loremdolor {
+    margin-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+.tips-button {
+    margin: 30px;
+    width: 179px;
+    padding: 1rem;
+    background-color: #0A846E;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px #504e4e30;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+
+
+.custom-line {
+    margin: 5rem auto;
+    width: 303px;
+    border-top: 3px solid #055647;
+
+}
+
+
 /* Styling Planerade planteringar */
 
 h2.plannedPlantsHeader {
@@ -209,6 +303,20 @@ button.greenBtn,
     border-radius: 8px;
     box-shadow: 0px 3px #504e4e30;
     margin: 5rem;
+}
+
+button.greenBtn:hover {
+    background-color: #10ac90;
+}
+
+.greenBtnPlant:hover {
+    background-color: #10ac90;
+}
+
+button.greenBtnPlant {
+    margin: 1rem 0;
+    font-family: 'Inter', sans-serif;
+    width: 281px;
 }
 
 .tidigareOdlingar {
