@@ -104,16 +104,6 @@ nav {
 }
 
 
-.circle {
-    width: 370px;
-    height: 370px;
-    background-color: #25603e;  
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .centered-textS {
     display: flex;
     flex-direction: column;
@@ -127,6 +117,7 @@ nav {
     justify-content: flex-start;
     text-align: left;
     color: black;
+    font-family:'Open Sans', sans-serif;
     font-size: 32px;
 }
 
