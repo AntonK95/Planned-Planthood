@@ -107,7 +107,7 @@ nav {
 .circle {
     width: 370px;
     height: 370px;
-    background-color: #25603e;  
+    background-color: #25603e;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -127,7 +127,7 @@ nav {
     justify-content: flex-start;
     text-align: left;
     color: black;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 32px;
 }
 
@@ -414,7 +414,7 @@ button.greenBtnPlant {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 16px;
     align-items: center;
     font-family: 'Maven Pro', sans-serif;
 }
