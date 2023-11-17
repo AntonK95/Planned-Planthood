@@ -323,6 +323,10 @@ button.greenBtnPlant {
 }
 
 /* styling footer */
+footer {
+    box-shadow: 3px 3px 5px 0px rgba(128, 128, 128, 0.363);
+    margin-bottom:20px;
+}
 
 .footerFlex {
     background-image: url(assets/Rectangle\ 22.png);
