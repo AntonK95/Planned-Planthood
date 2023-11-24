@@ -177,7 +177,7 @@ section.plannedPlants {
     justify-content: center;
     align-items: center;
 }
-
+/* Tidigare kod för varje kort
 figure.cucumber {
     height: 300px;
     width: 300px;
@@ -186,7 +186,7 @@ figure.cucumber {
     justify-content: center;
     align-items: center;
 }
-
+*/
 figure.cucumber {
     background-image: url(./assets/Rectangle\ 13\ \(5\).png);
 }
